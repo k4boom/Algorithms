@@ -1,0 +1,13 @@
+Link to the problem here:  https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/problems/A
+
+Here is a official brief for the problem:
+As a consulting data scientist in the airline industry, your job is to determine which trips between the various countries are possible.
+Flights are only available from country ii to country jj if and only if |i - j| = 1∣i−j∣=1.
+Let P_{i,j}P 
+i,j
+
+​	  = "Y" if it's possible to travel from country ii to country jj via a sequence of 0 or more flights (which may pass through other countries along the way), and P_{i,j}P 
+i,j
+​	  = "N" otherwise. Note that P_{i,i}P 
+i,i
+​	  is always "Y". Output this N∗N matrix of characters.
