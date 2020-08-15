@@ -1,0 +1,8 @@
+Link to the problem here: https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/problems/B
+Brief explanation for the problem:
+Leveraging his encyclopedic knowledge of alchemy, Edgar recalls an ancient book with the following ritual for fusing shards:
+1.Arrange the NN shards in a row, numbered from 1 to N.
+2.Note the colour C_i of each shard i, which is either auburn or black (denoted by the characters "A" and "B" respectively).
+3.Choose a consecutive sequence of three shards, remove them from the row, and fuse them together into one new shard. The three shards must not all be the same colour, or such an intense concentration of similar energies will cause a dangerous rebound explosion. Instead, there must be two differently-coloured shards that will neutralize each other, get converted into energy (via the Law of Equivalent Exchange), and become infused with the third shard. In other words, assuming no explosion, the resulting shard's colour will be equal to the most common colour present amongst the three chosen shards.
+4.Place the resulting shard back into the original gap in the row, with the remaining shards in the same relative order before and after it.
+5.Repeat steps 3 and 4 until only one shard remains.
