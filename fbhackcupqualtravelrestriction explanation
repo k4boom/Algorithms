@@ -10,4 +10,4 @@ i,j
 i,j
 ​	  = "N" otherwise. Note that P_{i,i}P 
 i,i
-​	  is always "Y". Output this N∗N matrix of characters.
+​	  is always 'Y'. Output this N∗N matrix of characters.
