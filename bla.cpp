@@ -59,10 +59,14 @@ string addstr(string x,string z){			//function to   add numbers in string form
 }
 int main(){
     string a,b;
-    
-    cin>>a>>b;
-    multiplestr(a,b);
-}
+    b="6402373705728000";
+    cout<<multiplestr(b,"19");
+    //while(1){
+    //	cin>>a;
+    //	if(a=="q") break;
+    //	b=multiplestr(a,b);
+    //	cout<<b;
+}//}
 string multiplestr(string a,string b){
     string z,x;
     if(a.length()>b.length()){z=a;x=b;}else{z=b;x=a;}
@@ -74,6 +78,7 @@ string multiplestr(string a,string b){
     reminder[0]=0;
     for(int a=0;a<x.length();a++){
         carp[a]="";
+        reminder[a]=0;
         for(int b=0;b<z.length();b++){
                 int xhol,zhol,sumhol;
                 string sum;
@@ -97,8 +102,15 @@ string multiplestr(string a,string b){
     }
     //TO DO: carp[a] ları ve carpma işlemlerini kontrol et sonra 0 ları ekle
     for(int i=0;i<x.length();i++){
+        
+        for(int b=0;b<i;b++){
+        	carp[i]=carp[i]+"0";
+        }
         cout<<"carp[i]:"<<carp[i]<<endl;
     }
-    free(carp);
-    free(reminder);
+    string result="";
+    for(int i=0;i<x.length();i++){
+    	result=addstr(result,carp[i]);
+    }
+    return result;
 }
