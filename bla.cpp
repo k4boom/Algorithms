@@ -13,7 +13,7 @@ void reverseStr(string& str) //string reverser function
         swap(str[i], str[n - i - 1]); 
 } 
 string multiplestr(string a,string b);
-string addstr(string x,string z){			//function to   add numbers in string form
+string addstr(string x,string z){			//function to add numbers in string form
 	reverseStr(x);reverseStr(z);	
 	string toplam="";
 	string uzun,kisa;
